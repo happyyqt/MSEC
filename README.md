@@ -27,7 +27,7 @@ python3 train_multitask.py
 
 ## Testing
 ```
-python3 eval_action.py
+python3 eval_multitask.py
 ```
 
 # Citation
