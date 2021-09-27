@@ -11,7 +11,7 @@ If you want to know more about machine learning-based exercise field, please ref
 
 # Running the code
 ## Training
-Train from scratch
+Train from scratch. Please change the keywords ('action' or 'counting') to train corresponding branch. 
 ```
 python3 train.py
 ```
