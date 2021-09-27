@@ -14,17 +14,20 @@ The inputs are RGB frames from an exercise video. The whole system is mainly com
 # Requirements
 - Tensorflow 1.16
 - Python 3
+# Dataset Preparation
+Rep-Penn Dataset is not provided here. If you want to create the dataset in the same way, please refer to our paper.
 
+The optional method is generating a heatmap for one-cycle exercise videos, and duplicate&concatenate heatmaps using similar methods introduced in the paper.
 # Running the code
 ## Training
 Train from scratch. Please change the keywords ('action' or 'counting') to train corresponding branch. 
 ```
-python3 train.py
+python3 train_multitask.py
 ```
 
 ## Testing
 ```
-python3 test.py
+python3 eval_action.py
 ```
 
 # Citation
